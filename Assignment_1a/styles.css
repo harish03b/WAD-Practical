@@ -1,0 +1,61 @@
+/* Custom CSS for Admin Dashboard */
+
+/* Navy Background */
+.bg-navy {
+    background-color: #203864;
+  }
+  
+  .bg-navy-hover:hover {
+    background-color: #2b4c85;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background-color: #2c2f33;
+    min-height: 100vh;
+    padding-top: 1rem;
+  }
+  
+  .sidebar .nav-link {
+    color: #bbb;
+  }
+  
+  .sidebar .nav-link.active,
+  .sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Profile Picture */
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Purple Background for Sales Card */
+  .bg-purple {
+    background-color: #6f42c1 !important;
+  }
+  
+  /* Main Content Layout Adjustment */
+  .main-content {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .main-content {
+      margin-left: 250px; /* Adjust to your sidebar width */
+    }
+  }
+  
+  /* Additional styling for images */
+  .network-pic,
+  .area-pic,
+  .earning-pic,
+  .sales-pic,
+  .progress-pic {
+    max-width: 100%;
+    height: auto;
+  }
+  
