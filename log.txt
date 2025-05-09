@@ -1,0 +1,21 @@
+setup>object manager> object created > click on object> choose fileds and relationship on left side>click lookup relationship > created one fields & save it> search for tabs in 9 dots> add tabs books & student> again search app mananger> click on create lightning app &n create and save> search on 9 dots library system>
+
+gcloud init> login to account> redirect to folder& create yaml file>then deploy>browse 
+gsutil mb -p [PROJECT_ID] -l [LOCATION] gs://[BUCKET_NAME]/
+gsutil iam ch allUsers:objectViewer gs://buc32
+gsutil cp path/to/index.html gs://buc32/
+gsutil cp -r [YOUR_LOCAL_DIRECTORY]/* gs://[BUCKET_NAME]/
+gsutil web set -m index.html -e 404.html gs://[BUCKET_NAME]/
+https://storage.googleapis.com/[BUCKET_NAME]/index.html
+
+
+gcloud app deploy
+gcloud app browse
+ anuragbhamare7@gmail.com(anurag@123)
+
+
+ip addr / ifconfig >
+touch file.txt > nano file.txt(ctrl+o,enter,ctrl+x)> scp file.txt vagrant@ip_address:/home/vagrant> ls >cat file.txt
+
+
+create bucket> upload files> 

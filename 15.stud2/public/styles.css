@@ -1,0 +1,175 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f5ff;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3f51b5;
+  }
+  
+  h1 {
+    color: #3f51b5;
+    font-size: 2.5rem;
+  }
+  
+  /* Tables Container */
+  .tables-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Table Wrapper Styles */
+  .table-wrapper {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-table {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+  }
+  
+  .cgpa-table {
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .results-table h2 {
+    color: #2e7d32;
+  }
+  
+  .cgpa-table h2 {
+    color: #1565c0;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3f51b5;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  tr:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Result Column Styles */
+  .result {
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+  }
+  
+  .pass {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+  }
+  
+  .fail {
+    background-color: #ffcdd2;
+    color: #c62828;
+  }
+  
+  /* CGPA Column Styles */
+  .cgpa {
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .high {
+    background-color: #bbdefb;
+    color: #0d47a1;
+  }
+  
+  .medium {
+    background-color: #fff9c4;
+    color: #f57f17;
+  }
+  
+  .low {
+    background-color: #ffccbc;
+    color: #bf360c;
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    color: #757575;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .tables-container {
+      flex-direction: column;
+    }
+    
+    .table-wrapper {
+      margin-bottom: 20px;
+    }
+  }

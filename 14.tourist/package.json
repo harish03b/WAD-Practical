@@ -1,0 +1,16 @@
+{
+  "name": "tourist-carousel",
+  "version": "1.0.0",
+  "description": "Static page with carousel of Indian tourist places",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
